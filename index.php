@@ -27,7 +27,7 @@ $resultats = $pdo->query('SELECT * FROM articles ORDER BY created_at DESC');
 $articles = $resultats->fetchAll();
 
 /**
- * 3. Affichage
+ * 3. Affichage-
  */
 $pageTitle = "Accueil";
 ob_start();
